@@ -75,13 +75,10 @@ Since an alt attribute is not required for images, it is easy to ignore it. But,
 <img src="image.jpg" alt="a descriptive text">
   ```
 ## 7. Validate frequently
-Instead of waiting until you are finished with your HTML document, validate your code multiple times as you work. This will help 
-save some time in the end by identifying errors early on, especially if your document is lengthy.
-One popular HTML validator to use is W3C’s markup validation service.
+Validate your code often while you work rather than waiting until your HTML document is complete.The sooner you identify errors, especially if your work is comprehensive, the more time you will save. One popular HTML validator to use is [W3C Markup Validator](https://validator.w3.org/).
 
 ## 8. Place external style sheets within the <head> tag
-Although external style sheets can be placed anywhere in the HTML document, it is best practice to place them within the <head> tag. 
-  This will allow your page to load faster.  
+The <head> tag is the best place for external style sheets even though they can be included anywhere in an HTML document. It speeds up the loading of the page.  
 ```
 <!DOCTYPE html>
 <html>
@@ -95,6 +92,7 @@ Although external style sheets can be placed anywhere in the HTML document, it i
 </html>
   ```
   ## 9. Avoid Excessive Comments
+  Keep your comments to a minimum. Do not randomly write comments; only write them when they are necessary.
   ```
   <!DOCTYPE html>
 <html>
@@ -109,6 +107,7 @@ Although external style sheets can be placed anywhere in the HTML document, it i
 </html>
 ```
   ## 10. Use Fieldset and Labels in Web Forms
+  When building web forms, it's important to use the HTML `<fieldset>` and `<label>` elements for better structure, organization, and accessibility.
   ```
   <form>
   <fieldset>
@@ -123,18 +122,21 @@ Although external style sheets can be placed anywhere in the HTML document, it i
 </form>
 ```
   ## 11. Use lowercase markup
+  Although HTML permits uppercase markup as well, using lowercase markup for tags and attributes is recommended for consistency, compatibility, and accessibility reasons.
+    
   ```
   <h1>Heading 1</h1>
   <p>Paragraph Text</p>
   <img src="example.jpg" alt="Example Image">
 ```
   ## 12. HTML5 Semantic Elements
-The term refers to elements with meanings. 100s of semantic elements are available. When written in semantic tags, your content will
-  be considered important by search engines, which will boost your SEO.
+  The term refers to things that have meanings. There are countless semantic elements available. Search engines will value your content more when it is written with semantic tags, which will improve your SEO.
   
   ![FUE0KjXUEAALMtd](https://user-images.githubusercontent.com/47534248/236609875-6028ef12-e378-4e6c-a853-77ea5cbfbbc3.jpg)
 
   ## 13. Use meaningful tags
+  Meaningful HTML tags properly identify the data they contain, making the code easy to understand and read for both humans and search engines.
+    
   ```
   <header>
   <h1>Page Title</h1>
@@ -161,11 +163,12 @@ The term refers to elements with meanings. 100s of semantic elements are availab
 </footer>
 ```
   ## 14. Keep SEO in mind
+  SEO is important for HTML content. It is possible to boost a website's SEO and make it easier for search engines to understand the content of the page's structure and tags.
+
   Read this detailed thread on [SEO tags for HTML](https://twitter.com/ishratUmar18/status/1531562660357021696?s=20).
   
   ## 15. Always use responsive meta tags
-  You should always make your site responsive. Now people can request a desktop or mobile experience through the browser and the
-  minimum you can do is make your site fluid but, responsiveness is a must.
+  Always have a responsive website. Now that users may request a desktop or mobile experience via their browser, the least you can do is make your site flexible, but responsiveness is a requirement.
     
 ```
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -206,6 +209,6 @@ The term refers to elements with meanings. 100s of semantic elements are availab
     <p>Did you <em>really</em> think that was a good idea? You <strong>shouldn't</strong> have done that.</p>
 ```
 
-    
+⭐**Check out the [Isobar Front-end Code Standards](https://isobar-us.github.io/code-standards/) and the [HTML Best Practises](https://github.com/hail2u/html-best-practices) if you want to learn more.**
   
    
