@@ -174,5 +174,31 @@ The term refers to elements with meanings. 100s of semantic elements are availab
   ## 15. Always use responsive meta tags
   You should always make your site responsive. Now people can request a desktop or mobile experience through the browser and the
   minimum you can do is make your site fluid but, responsiveness is a must.
-```<meta name="viewport" content="width=device-width, initial-scale=1">```
+    
+```
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+```
+  ## 16. Lazy load Images 
+  Lazy loading images make them load faster, as only the images within the viewport are initially loaded.
+ ```
+    <img src="image.jpg" loading="lazy">
+ ```
+    
+   ## 17. Put social links inside the ```<address>```
+    
   
+  Use the [address](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address) tag to include any information about how people     can contact you, such as your mailing address, phone number, email address, website, and social network links (if applicable).
+    
+    ## 18. Add captions to images
+  Use <figcaption> along with <figure> element to add captions to your images.
+    
+    
+```<figure>
+     <img src="image.jpg" alt="A beautiful landscape">
+      <figcaption>A beautiful landscape</figcaption>
+    </figure>```
+    
+
+    
+  
+   
