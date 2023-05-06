@@ -33,9 +33,7 @@ When writing HTML, the doctype is the first thing you have to write. This will l
 </html>
 ```
   ## 3. Page language
-Specifying the language of your site will help screen readers pick the right language to announce. Browsers also use 
-it to determine if they should auto-translate your site or not.
-The lang attribute should describe the language used by the majority of the content of the site.
+Screen readers will be able to select the appropriate language to announce if you specify the language of your website. Additionally, it helps browsers decide whether or not to translate your website automatically.
   
   ```
 <!DOCTYPE html>
@@ -49,15 +47,14 @@ The lang attribute should describe the language used by the majority of the cont
 </html>
 ```
   ## 4. Always close or self-close the tags
-    To avoid encountering validation errors, always remember to have a closing tag for every tag you create.
+   To avoid validation errors, always remember that every tag you write needs a closing tag.
   ```
   <h1>Heading 1</h1>
   <p>Paragraph Text</p>
   <img src="example.jpg" alt="Example Image" />
   ```
   ## 5. Don't use inline styles
-It may seem like an easy route to place styling in line with the code instead of creating an external style sheet. However, inline styles are not a good coding practice because it makes it harder to update and maintain a website.
-Instead, keep your styles separate from your HTML mark-up.
+It might seem easier to style with the inline code rather than creating an external style file. Inline styles are not a suggested coding technique, though, as they make websites more challenging to manage and update.
 
 ```
 <!DOCTYPE html>
@@ -72,9 +69,7 @@ Instead, keep your styles separate from your HTML mark-up.
 </html>
   ```
 ## 6. Always Specify alt, width, and height for Images
-It is not required to have an alt attribute with images, which makes it easy to ignore. However, it is important to have a 
-  meaningful alt attribute for validation and accessibility reasons.
-The alt attribute provides context to screen readers so it should be descriptive as to what the image contains.
+Since an alt attribute is not required for images, it is easy to ignore it. But, it's important to have a meaningful alt attribute for accessibility and validation reasons. Screen readers rely on the alt element for context, therefore it ought to explain what the image contains..
 
 ```
 <img src="image.jpg" alt="a descriptive text">
