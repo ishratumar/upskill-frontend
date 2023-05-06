@@ -4,8 +4,7 @@ This document contains some HTML best practices that you should follow while
 writing HTML to keep your HTML documents organized and consistent.
 
 ## 1. Document Structure
-It's important to follow the proper document structure, even though your code will still work even without it. 
-But in some browsers, the pages will not render correctly.
+The proper document structure should be used, even if your code would still work without it. But some browsers might not display the pages properly.
 
 Best Practice:
 ```
@@ -20,9 +19,7 @@ Best Practice:
 </html>
 ```
 ## 2. Correct DOCTYPE
-When writing HTML, the first thing you have to write is the doctype. This will tell the browser the standards you are using to 
-render your markup correctly. The doctype goes before the <html> tag at the top of the page.
-If you are unsure about what declaration to use, W3.org provides information on choosing the right doctype.
+When writing HTML, the doctype is the first thing you have to write. This will let the browser know what standards you're using to render markup correctly. The doctype tag precedes the `<html>` tag at the top of the page.
   
 ```
 <!DOCTYPE html>
@@ -189,15 +186,30 @@ The term refers to elements with meanings. 100s of semantic elements are availab
   
   Use the [address](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address) tag to include any information about how people     can contact you, such as your mailing address, phone number, email address, website, and social network links (if applicable).
     
-    ## 18. Add captions to images
-  Use <figcaption> along with <figure> element to add captions to your images.
-    
+   ## 18. Add captions to images
+  Use `<figcaption>` along with `<figure>` element to add captions to your images.   
     
 ```<figure>
      <img src="image.jpg" alt="A beautiful landscape">
       <figcaption>A beautiful landscape</figcaption>
-    </figure>```
+    </figure>
+```
     
+   ## 19. Images Captions
+   Use `<figcaption>` along with `<figure>` element to add captions to images. As, this is important for accessibility and search engine optimization.
+    
+```
+    <figure>
+     <img src="example-image.jpg" alt="Example image">
+     <figcaption>This is an example image</figcaption>
+    </figure>
+```
+   ## 20. Avoid using `<b>` and `<i>`
+   To add emphasis to text in HTML, it is discouraged to use the `<b>` and `<i>` tags as they lack semantic meaning. Instead, the    recommended practice is to utilize the font-weight CSS property, or employ the `<strong>` and `<em>` tags which have a semantic significance.
+    
+```
+    <p>Did you <em>really</em> think that was a good idea? You <strong>shouldn't</strong> have done that.</p>
+```
 
     
   
