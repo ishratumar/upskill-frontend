@@ -7,7 +7,6 @@ A valid HTML form ensures that the user's input meets the required criteria and 
      -> type
      -> pattern
      -> max & min
-     -> maximum & minimum
 
 ### required attribute
 It is a boolean attribute that assures that an input field must be filled out before submitting the form. It supports text, password, radio, checkbox, date pickers, number, file, email, tel, URL, and search input types.
@@ -45,22 +44,13 @@ Example:
 Age:<input type="number" name="age" id="age" min="18" max="99" required />
 ```
 
-### maximum & minimum
-These attributes work similarly to `max` and `min`, but are used for date and time input fields.
-
-Example: 
-```
-<label for="birthdate">Birthdate:</label>
-<input type="date" name="birthdate" id="birthdate" minimum="2001-01-01" maximum="2023-05-09" required />
-```
-
 ## CSS Pseudo Selectors
 CSS pseudo-selectors make it possible to select elements and style them based on their state or attributes. Following is a list of frequently used CSS form input pseudo-selectors:
 
        -> :required
        -> :valid
        -> :invalid 
-       -> :disable
+       -> :disabled
        -> :optional
 
 ### :required selector
@@ -113,7 +103,7 @@ input:optional {
   background-color: lightgray;
 }
 ```
-## Form
+## Contact Form Example 
 ### HTML
 
 ```
@@ -224,7 +214,7 @@ select:disabled {
   cursor: not-allowed;
 }
 ```
-## Illustration:
+## Example Illustration:
 ![HTML Best Practices (9)](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/a567e72c-0174-482c-b509-e000fe4a0c09)
 
 
