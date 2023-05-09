@@ -57,11 +57,11 @@ Example:
 ## CSS Pseudo Selectors
 CSS pseudo-selectors make it possible to select elements and style them based on their state or attributes. Following is a list of frequently used CSS form input pseudo-selectors:
 
-       - :required
-       - :valid
-       - :invalid 
-       - :disable
-       - :optional
+       -> :required
+       -> :valid
+       -> :invalid 
+       -> :disable
+       -> :optional
 
 ### :required selector
 This pseudo-selector is used to select and style form elements that have the required attribute, such as input fields. The code given below will set the border color of all required input fields to red.
