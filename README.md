@@ -5,7 +5,7 @@ All topics you need to learn about Frontend Development
 
 ## HTML
 - [HTML Best Practices](HTML/html-best-practices.md)
-- [HTML Form Validations](HTML/html-form-validation.md)
+- [HTML Forms and Validations](HTML/html-form-validation.md)
 
 
 
