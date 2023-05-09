@@ -1,4 +1,4 @@
-# HTML Form Validations
+# HTML Forms and Validations
 
 A valid HTML form ensures that the user's input meets the required criteria and is correct. Using HTML attributes for form validation or JavaScript for more complex logic will let you implement more sophisticated validation logic. It is also important to provide meaningful error messages to the user and perform server-side validation. You can create secure and user-friendly web forms using these techniques.
 
@@ -224,8 +224,11 @@ select:disabled {
   cursor: not-allowed;
 }
 ```
+## Illustration:
+![HTML Best Practices (9)](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/a567e72c-0174-482c-b509-e000fe4a0c09)
 
-⭐ Check out these resources if want to learn more: [W3Schools](https://www.w3schools.com/js/js_validation.asp)
+
+⭐ Want to learn more? Check out these resources: [W3Schools](https://www.w3schools.com/js/js_validation.asp)
 , [WEBDEV](https://web.dev/learn/forms/)
 and [MDN](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
 
