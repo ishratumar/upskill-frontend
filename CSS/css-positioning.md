@@ -41,4 +41,7 @@ After the offset position comes into the viewport, it stays in place like a fixe
 
 ![navbar animation](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/b76988cd-1171-47bb-98b1-232c99bb9841)
 
+## Resources
+- [Position Property by MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+- [The position Property by W3schools](https://www.w3schools.com/css/css_positioning.asp)
 ### That's all! I hope you find it helpful :))
