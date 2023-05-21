@@ -84,4 +84,9 @@ applied to individual Flex Elements. It overrides the default alignment set by t
 It can take the following values:
 ![FoGrPljaYAQmP4C](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/736d4a79-2cff-4805-9f8a-9c2c182a3846)
 
+## Resources
+- [Flexbox by CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Flexbox Series by Wes Bos](https://flexbox.io/)
+- [Flexbox by MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+
 ### That's all! For more read this blog post on Medium. [All you need to learn about CSS FlexBox](https://ishratumar.medium.com/css-flexbox-eb9dc69c4a6a).
