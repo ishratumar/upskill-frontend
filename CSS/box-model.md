@@ -72,4 +72,8 @@ For better understanding see the illustration below 👇
 Look how it works 👇🏻
 ![7](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/76719897-c130-4654-92e7-cdb820da846a)
 
+## Resources: 
+- [Learn Box Model by Web Dev Simplified - YouTube](https://youtu.be/rIO5326FgPE)
+- [Box Model by web.dev](https://web.dev/learn/css/box-model/)
+- [The box model by MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
 ## That's all! I really hope you find it helpful. If so, give it a ⭐.
