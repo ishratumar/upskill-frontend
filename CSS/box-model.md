@@ -34,7 +34,7 @@ They automatically adjust the width based on the content size when we set the wi
 ✧ Even though we set the padding to 300px, the width may alter depending on padding and border size.
 
 See the example👇🏻
-![3](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/94e0f0b5-a678-4cb2-8158-7f772043c06f)
+![CONTENT (1)](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/6a12b16a-72be-46db-bcc3-474437d75708)
 
 ### 2. box-sizing: border-box;
 
