@@ -59,7 +59,7 @@ Now let's apply float to an example. See the code below:
 Example with `float` property:
 ![css important topics (4)](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/bde03d87-d57f-4959-9f7d-6c4ca3a40a80)
 
-
+- Here's the complete code for the example mentioned above, available at [floats.html](CSS/floats.html).
 ## Resources 
 Check out these links to learn more:
 
