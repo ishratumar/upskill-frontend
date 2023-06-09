@@ -15,7 +15,7 @@ All topics you need to learn about Frontend Development
 - [Floats](CSS/floats.md)
 - [FlexBox](CSS/flexbox.md)
 
-## JvaScript
+## JavaScript
 
 ## Version Control Systems
 
