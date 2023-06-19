@@ -56,7 +56,7 @@ different grid properties.
 
 ## Grid Architecture
 Illustration ↝
-![grid-architecture (5)](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/e019d266-995b-47aa-bc7a-54983565f127)
+![grid-container](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/267c8212-9663-4387-9263-4f3e9c62fa7a)
 
 ## Grid lines
 
