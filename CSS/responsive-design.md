@@ -67,14 +67,54 @@ In the media query above, the styles will be applied when the viewport width is 
 /* Styles */
 }
 ```
-Media queries give you a lot of flexibility when it comes to adjusting your website's layout and design for different devices and screen sizes.
+Media queries give you a lot of flexibility when it comes to customizing your website's layout and design for different devices and screen sizes.
 
 
 ### Media Queries breakpoints
 ![FEDzQAwX0AICK_4](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/e28dc6dd-da4d-4bbf-aa38-72770120184d)
 
 ## CSS Grid
+CSS Grid is a powerful layout framework that allows you to create intricate and responsive grid-based layouts. It offers a versatile replacement for traditional float-based layouts and makes creating multi-column designs easier.
+
+**Examples**
+Here are some examples that you can use:
+1. Use `auto-fill` to create columns that automatically fill the available space.
+
+```
+.grid-container {
+display: grid;
+grid-template-columns: repeat(auto-fill, 1fr); 
+}
+```
+
+2. Use `auto-fit` to create columns that automatically adjust their width.
+```
+.grid-container {
+display: grid;
+grid-template-columns: repeat(auto-fit, 1fr);
+}
+```
+
+3. Use `minmax` to create columns with a minimum width of 300px.
+```
+.grid-container {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+}
+```
+
+4. Use `grid-auto-rows` property to sets the height of automatically generated rows to 50px.
+```
+.grid-container {
+display: grid;
+grid-auto-rows: 50px;
+}
+```
+
+## Viewport units
+
 ## Flexbox
+
 ## The clamp( ) function
 ## The min() and max() functions
 ## Responsive Images
