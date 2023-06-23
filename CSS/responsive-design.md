@@ -10,7 +10,7 @@ You want to know more about those methods, right?
 
 Let's get going!
 
-## Meta Tags
+## Meta Tag
 Meta tags are placed inside the `<head>` section of the HTML document and are not displayed on the page itself. 
 
 With the viewport meta tag in the HTML code of a webpage, you can control how the webpage looks on different devices with varying screen sizes.
