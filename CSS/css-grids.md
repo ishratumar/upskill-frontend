@@ -1,7 +1,7 @@
 ## From zero to grid hero: An illustrated guide to CSS Grid essentials
 ### Mastering CSS Grid with illustrations
 
-#### Table of contents
+#### Table of contents:
 1. What is the grid 
 2. Grid terminology
 3. Grid container properties
@@ -667,7 +667,8 @@ one of the following four values:
 ```justify-self: start | end | center | stretch;```
 
 Illustration ↝
-![justify-self (1)](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/cadc2113-f3a4-4db0-8bbc-dd77cd850efb)
+![align-self (1)](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/5b94c5b1-596b-4e3d-8a55-77b05924038f)
+
 
 ### The align-self property 
 Using the `align-self` property, you can position an item inside the grid container along the *cross-axis(y-axis)*. It may include one 
