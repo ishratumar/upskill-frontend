@@ -10,10 +10,13 @@ You want to know more about those methods, right?
 
 Let's get going!
 
-## Meta Tag
+## Viewport Meta Tag
 Meta tags are placed inside the `<head>` section of the HTML document and are not displayed on the page itself. 
 
 With the viewport meta tag in the HTML code of a webpage, you can control how the webpage looks on different devices with varying screen sizes.
+
+How the webpage displays without a Viewport Meta Tag:
+![without-meta-tag](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/84c66375-7dd4-436f-981d-d4bb1ae71cd8)
 
 **Example:**
 ```
@@ -21,23 +24,30 @@ With the viewport meta tag in the HTML code of a webpage, you can control how th
 <meta name="viewport" content="width=device-width", initial-scale=1.0" >
 </head>
 ```
+
+How the webpage displays with Viewport Meta Tag:
+![with-media-tag](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/af7c81a9-35a7-43e0-872f-d6069a7c9e4c)
+
+
 ## Media Queries
 Media queries are essential for responsive web design. You can apply different styles using media queries depending on factors like screen size, device orientation, and aspect ratio.
 
 **Examples:**
 Here are some examples that you can use in your projects:
 
-1. Write a media query to apply styles when the viewport width is 200px or larger.
+1. Write a media query to apply styles when the viewport width is 340px or less.
 ```
-@media (min-width: 200px) {
-.element {
+@media (max-width: 340px) {
+.item {
     font-size: 20px;
-    background-color: green;
+    background-color: lightgreen;
   }
 }
 ```
-In the media query above, the styles will be applied when the viewport width is 200 pixels or larger.
+In the media query above, the styles will be applied when the viewport width is 340px pixels or less.
 
+**Demo**
+![media-query-responsive-design](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/4ee27220-3452-4ee3-9223-891ed483d170)
 
 2. Write a media query to apply styles when the device is in landscape mode.
 ```
@@ -83,17 +93,21 @@ Here are some examples that you can use:
 ```
 .grid-container {
 display: grid;
-grid-template-columns: repeat(auto-fill, 1fr); 
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 ```
+**Demo**
+![responsive-design (1)](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/5bf302a6-d822-4699-ad2e-cec50d2d39b9)
 
 2. Use `auto-fit` to create columns that automatically adjust their width.
 ```
 .grid-container {
 display: grid;
-grid-template-columns: repeat(auto-fit, 1fr);
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 ```
+**Demo**
+![autofit](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/7dbd5707-b47a-461f-b2fd-d437beca37b1)
 
 3. Use `minmax` to create columns with a minimum width of 300px.
 ```
