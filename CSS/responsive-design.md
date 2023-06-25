@@ -1,4 +1,4 @@
-# Responsive Design: Meta Tags, Media Queries, Flexbox, CSS Grid, and Viewport Units
+![clamp function](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/d91ac482-30a0-47e7-a8d7-787b601d4ae6)# Responsive Design: Meta Tags, Media Queries, Flexbox, CSS Grid, and Viewport Units
 
 In today's digital world, responsive design is crucial. It guarantees that webpages and apps will run smoothly across different devices.
 With responsive design, you can increase your customer base, improve the user experience, and foster success. 
@@ -160,7 +160,7 @@ With viewport units, you can specify sizes in relation to the viewport's dimensi
 ```
 
 **Demo:**
-![image](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/1e3f2874-f307-4de1-878d-0f76949e4130)
+![responsive-design](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/52ce5dc8-56f2-4e00-b6fc-4da100990cfa)
 
 ```
 .hero {
@@ -219,7 +219,8 @@ A quick and effective way to use Flexbox to implement responsive design is by us
 ```
 
 **Demo:**
-![image](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/6b1c2a59-d701-4718-aa1e-b8704e86ee59)
+![nowrap flexbox](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/a45139ed-085b-4f32-9890-18564e2a37e9)
+
 
 ```
 .container {
@@ -232,7 +233,8 @@ A quick and effective way to use Flexbox to implement responsive design is by us
 ```
 
 **Demo:**
-![image](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/cce63705-0b62-453c-8de7-dd595dcbfd0d)
+![wrap flexbox](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/f445b753-a5d6-4f90-96d5-31bec2007c69)
+
 
 In cases like the one above, where there is insufficient width, the flex container will wrap the items into a new line. Each item will have a minimum width of `200px (flex-basis: 200px)` and a flexible width that allows it to `grow (flex-grow: 1)` and `shrink(flex-shrink: 0)`.
 
@@ -247,7 +249,7 @@ In CSS, you can specify a value that falls within a given range by using the `cl
 ```
 
 **Demo:**
-![image](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/522e109c-c0fb-4927-97a0-50e8c8dc88e3)
+![clamp function](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/880765bf-7f6e-446e-9fe7-871a5e821192)
 
 This example demonstrates how to change the text element's font size using the `clamp()` function. The minimum font size is `14px`, the maximum font size is `24px`, and the preferred font size is `3%` of the viewport width (3vw).
 
