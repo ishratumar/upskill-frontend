@@ -636,9 +636,7 @@ The `auto-fit` keyword allows the columns to adjust and fill available space whi
 hand, the `auto-fill` keyword ensures that the grid is always filled by adding empty tracks to fill in additional
 space. Both `auto-fill` and `auto-fit` are used in conjunction with the `repeat()` function in CSS Grid.
 
-In addition, there is another sizing function called `fit-content()`. The `fit-content()` function in CSS Grid makes that grid tracks or 
-items never go smaller than the *minimum (min-content)* size or bigger than the *maximum(max-content)* size  based on the content. You can 
-make your designs more responsive and flexible by using `fit-content()` to create dynamic, flexible grid layouts.
+In addition, there is another sizing function called `fit-content()`. The `fit-content()` function in CSS Grid makes that grid tracks or items never go smaller than the *minimum (min-content)* size or bigger than the *maximum(max-content)* size  based on the content. You can make your designs more responsive and flexible by using `fit-content()` to create dynamic, flexible grid layouts.
 ```
 .grid-container {
   display: grid;
@@ -711,7 +709,7 @@ Interested in learning more? These are some of the best CSS Grid resources:
 => [Read it on Medium](https://ishratumar.medium.com/from-zero-to-grid-hero-illustrated-guide-to-css-grid-essentials-cd1531b56431)
 
 ## Conclusion
-That's pretty much it for this blog post. I really hope it gives you a better understanding of CSS Grids.
+That's pretty much it. I really hope it gives you a better understanding of CSS Grids.
 Message me on [Twitter](https://twitter.com/ishratUmar18) if you have any questions.
 
 ## If you find it helpful, give it a ⭐ and share it with others.
