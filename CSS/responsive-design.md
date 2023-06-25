@@ -86,6 +86,15 @@ Media queries give you a lot of flexibility when it comes to customizing your we
 ## CSS Grid
 CSS Grid is a powerful layout framework that allows you to create intricate and responsive grid-based layouts. It offers a versatile replacement for traditional float-based layouts and makes creating multi-column designs easier.
 
+### minmax()
+The `minmax()`function helps you set the *minimum* and *maximum* grid 
+track sizes. Using this method, you can give grid objects a *minimum* width and let them expand to a *maximum* width if there is 
+extra space.
+
+### auto-fit & auto-fill
+The `auto-fit` keyword allows the columns to adjust and fill available space while respecting their *minimum* and *maximum* sizes. On the other hand, the `auto-fill` keyword ensures that the grid is always filled by adding empty tracks to fill in additional
+space.
+
 **Examples**
 Here are some examples that you can use:
 1. Use `auto-fill` to create columns that automatically fill the available space.
@@ -122,6 +131,14 @@ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 .grid-container {
 display: grid;
 grid-auto-rows: 50px;
+}
+```
+
+In addition, there is another sizing function called `fit-content()`. The `fit-content()` function in CSS Grid makes that grid tracks or items never go smaller than the *minimum (min-content)* size or bigger than the *maximum(max-content)* size  based on the content. You can make your designs more responsive and flexible by using `fit-content()` to create dynamic, flexible grid layouts.
+```
+.grid-container {
+  display: grid;
+  grid-template-columns: fit-content(200px) 1fr;
 }
 ```
 
