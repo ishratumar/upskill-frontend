@@ -205,7 +205,7 @@ Check browser support [here](https://caniuse.com/viewport-units).
 
 ---
 ## Flexbox
-A quick and effective way to use Flexbox to implement responsive design is by using the `flex-wrap` property. Flex items will, by default, try to fit in a single line within the flex container. The default value of `flex-wrap` property is set to `nowrap` by default. However, with the `flex-wrap` property set to `wrap`, the items will wrap to a new line when the container's width becomes too small to fit them all on a single line.
+A quick and effective way to use Flexbox to implement responsive design is by using the `flex-wrap` property. Flex items will, by default, try to fit in a single line within the flex container. The `flex-wrap` property is set to `nowrap` by default. However, with the `flex-wrap` property set to `wrap`, the items will wrap to a new line when the container's width becomes too small to fit them all on a single line.
 
 **Example:**
 ```
