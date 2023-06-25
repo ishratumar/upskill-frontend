@@ -1,4 +1,4 @@
-![clamp function](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/d91ac482-30a0-47e7-a8d7-787b601d4ae6)# Responsive Design: Meta Tags, Media Queries, Flexbox, CSS Grid, and Viewport Units
+# Responsive Design: Meta Tags, Media Queries, Flexbox, CSS Grid, and Viewport Units
 
 In today's digital world, responsive design is crucial. It guarantees that webpages and apps will run smoothly across different devices.
 With responsive design, you can increase your customer base, improve the user experience, and foster success. 
@@ -249,7 +249,8 @@ In CSS, you can specify a value that falls within a given range by using the `cl
 ```
 
 **Demo:**
-![clamp function](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/880765bf-7f6e-446e-9fe7-871a5e821192)
+![clamp function](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/d91ac482-30a0-47e7-a8d7-787b601d4ae6)
+
 
 This example demonstrates how to change the text element's font size using the `clamp()` function. The minimum font size is `14px`, the maximum font size is `24px`, and the preferred font size is `3%` of the viewport width (3vw).
 
