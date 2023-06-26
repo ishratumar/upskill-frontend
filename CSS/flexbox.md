@@ -88,5 +88,8 @@ It can take the following values:
 - [Flexbox by CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Flexbox Series by Wes Bos](https://flexbox.io/)
 - [Flexbox by MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+- Ebook - [Master Flexbox and Grid](https://utsavmeena.com/?wpam_id=33)
+
+
 
 ### That's all! For more read this blog post on Medium. [All you need to learn about CSS FlexBox](https://ishratumar.medium.com/css-flexbox-eb9dc69c4a6a).
