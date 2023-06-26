@@ -15,6 +15,7 @@ All topics you need to learn about Frontend Development
 - [Floats](CSS/floats.md)
 - [FlexBox](CSS/flexbox.md)
 - [CSS Grids](CSS/css-grids.md)
+- [Responsive Design](CSS/responsive-design.md)
 
 ## JvaScript
 
