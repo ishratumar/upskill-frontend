@@ -703,6 +703,7 @@ Interested in learning more? These are some of the best CSS Grid resources:
 - Free course - [LEARN CSS GRID WITH WES BOS](https://medium.com/r/?url=https%3A%2F%2Fcssgrid.io%2F)
 - [Learn CSS Grid by playing game - Grid Garden](https://medium.com/r/?url=https%3A%2F%2Fcssgridgarden.com%2F)
 - [CSS Grid Generator](https://medium.com/r/?url=https%3A%2F%2Fcssgrid-generator.netlify.app%2F)
+- - Ebook - [Master Flexbox and Grid](https://utsavmeena.com/?wpam_id=33)
 
 ---
  
