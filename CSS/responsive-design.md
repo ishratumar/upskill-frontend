@@ -288,7 +288,7 @@ This can come in handy when you want to make sure that an image is a specific si
 - Responsive Design - [MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
 - Learn Responsive Design - [Freecodecamp YouTube Channel 4 hours Course](https://youtu.be/srvUrASNj0s)
 - Learn Responsive Web Design(Intermediate level ) - [Free Course with Kevin Powell on Scrimba](https://scrimba.com/learn/responsive)
-- Complete Web Developer in 2023: Zero to Mastery - [Paid Bootcamp](https://academy.zerotomastery.io/a/aff_r1613hhr/external?affcode=&affcode=441520_nmkbcy8m)
+- Complete Web Developer in 2023: Zero to Mastery - [Bootcamp](https://academy.zerotomastery.io/a/aff_r1613hhr/external?affcode=&affcode=441520_nmkbcy8m)
 
 
 ---
