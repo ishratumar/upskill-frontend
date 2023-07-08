@@ -1,13 +1,22 @@
-# frontend
+# Frontend
 All topics you need to learn about Frontend Development
 ![dev to images](https://user-images.githubusercontent.com/47534248/236635697-cd9e5b8e-05cd-4746-b94c-6aa9c639d1e6.jpg)
 
+---
+#### 📣 Struggling to learn on your own?
+I have a valuable suggestion for you if you find yourself struggling to learn on your own all the time, feeling overwhelmed, and not knowing where to start. Even though it is a paid course, consider it an investment that could pay off in the form of useful skills and career opportunities. It offers a well structured [Frontend Developer Career Path](https://academy.zerotomastery.io/a/aff_ppr160by/external?affcode=441520_nmkbcy8m) that will guide you from the start to employment.
 
+Even though some people succeed at self study, everyone has a different way of learning. This course, could be a game changer for you if you struggle to stay motivated and focused while you study on your own.
+
+Please note that the link provided is an affiliate link. If you decide to make a purchase, I may receive a small commission.
+👉 [Become a Frontend Developer - Earn on average $102,504 per year](https://academy.zerotomastery.io/a/aff_ppr160by/external?affcode=441520_nmkbcy8m)
+
+If you do not want to join, you can still learn from a ton of free resources available, including this repository.
+
+---
 ## HTML
 - [HTML Best Practices](HTML/html-best-practices.md)
 - [HTML Forms and Validations](HTML/html-form-validation.md)
-
-
 
 ## CSS 
 - [Box Model](CSS/box-model.md)
@@ -18,6 +27,15 @@ All topics you need to learn about Frontend Development
 - [Responsive Design](CSS/responsive-design.md)
 
 ## JavaScript
+JavaScript is a robust programming language that is commonly used for web development. It helps you create dynamic and interactive web pages.
+
+The foundations of JavaScript are as follows:
+
+- [Hello World](JavaScript/helloWorld.md)
+- [Popup Boxes](JavaScript/popupBoxes.md)
+- [Comments](JavaScript/comments.md)
+- [Variables](JavaScript/variables.md)
+- [Data Types](JavaScript/dataTypes.md)
 
 ## Version Control Systems
 
