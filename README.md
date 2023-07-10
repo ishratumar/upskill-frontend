@@ -9,6 +9,7 @@ I have a suggestion for you if you find yourself struggling to learn on your own
 Even though some people succeed at self study, everyone has a different way of learning. This course could be a game changer for you if you struggle to stay motivated and focused while you study on your own.
 
 Note that the link provided is an affiliate link. If you decide to make a purchase, I may receive a small commission.
+
 👉 [Become a Frontend Developer - Earn on average $102,504 per year](https://academy.zerotomastery.io/a/aff_ppr160by/external?affcode=441520_nmkbcy8m)
 
 If you do not want to join, you can still learn from a ton of free resources available, including this repository.
