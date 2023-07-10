@@ -12,6 +12,9 @@ Example:
    const PI = 3.14;
    ```
 
+### Difference between var, let, and const:
+![carbon (5)](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/a3b1fb1d-a9df-4754-9ef4-85bfecd502e4)
+
 ## 2. Variable Assignment
 You can assign a value to a variable using the assignment operator (`=`). 
 
