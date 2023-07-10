@@ -4,11 +4,11 @@ All topics you need to learn about Frontend Development
 
 ---
 #### 📣 Struggling to learn on your own?
-I have a valuable suggestion for you if you find yourself struggling to learn on your own all the time, feeling overwhelmed, and not knowing where to start. Even though it is a paid course, consider it an investment that could pay off in the form of useful skills and career opportunities. It offers a well structured [Frontend Developer Career Path](https://academy.zerotomastery.io/a/aff_ppr160by/external?affcode=441520_nmkbcy8m) that will guide you from the start to employment.
+I have a suggestion for you if you find yourself struggling to learn on your own all the time, feeling overwhelmed, and not knowing where to start. It is a paid course, consider it an investment that could pay off in the form of useful skills and career opportunities. It offers a well structured [Frontend Developer Career Path](https://academy.zerotomastery.io/a/aff_ppr160by/external?affcode=441520_nmkbcy8m) that will guide you from the start to employment.
 
-Even though some people succeed at self study, everyone has a different way of learning. This course, could be a game changer for you if you struggle to stay motivated and focused while you study on your own.
+Even though some people succeed at self study, everyone has a different way of learning. This course could be a game changer for you if you struggle to stay motivated and focused while you study on your own.
 
-Please note that the link provided is an affiliate link. If you decide to make a purchase, I may receive a small commission.
+Note that the link provided is an affiliate link. If you decide to make a purchase, I may receive a small commission.
 👉 [Become a Frontend Developer - Earn on average $102,504 per year](https://academy.zerotomastery.io/a/aff_ppr160by/external?affcode=441520_nmkbcy8m)
 
 If you do not want to join, you can still learn from a ton of free resources available, including this repository.
