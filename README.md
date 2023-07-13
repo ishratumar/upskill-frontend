@@ -8,7 +8,7 @@ I have a suggestion for you if you find yourself struggling to learn on your own
 
 Even though some people succeed at self study, everyone has a different way of learning. This course could be a game changer for you if you struggle to stay motivated and focused while you study on your own.
 
-I have included a link below so you can check it out. I do have an affiliate relationship with Zero To Mastery, which basically means I benefit if you use the link and then end up making a purchase. No extra cost to you!
+I have included the link below so you can check it out. I do have an affiliate relationship with Zero To Mastery, which basically means I benefit if you use the link and then end up making a purchase. No extra cost to you!
 
 👉 [Become a Frontend Developer - Earn on average $102,504 per year](https://academy.zerotomastery.io/a/aff_ppr160by/external?affcode=441520_nmkbcy8m)
 
