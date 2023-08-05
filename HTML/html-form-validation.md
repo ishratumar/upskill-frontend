@@ -13,18 +13,18 @@ It is a boolean attribute that assures that an input field must be filled out be
 
 Example:
 
-```
+```html
 <form>
-Username: <input type="text" name="username" required />
-<input type="submit" />
+ Username: <input type="text" name="username" required />
+ <input type="submit" />
 </form>
 ```
 
 ### type attribute
-This attribute specifies the type of input expected from the user. You can use the 'type' attribute for many kinds of input fields, including text, password, email, number, checkbox, radio, date, file, submit, reset, button, etc. The example below shows how to specify a type attribute that ensures that the user enters the right email address in the specific input field.
+This attribute specifies the type of input expected from the user. You can use the 'type' attribute for many types of input fields, including text, password, email, number, checkbox, radio, date, file, submit, reset, button, etc. The example below shows how to specify a type attribute that ensures that the user enters the correct email address in the specific input field.
 
 Example:
-```
+```html
 <input type="email" name="email" />
 ```
 
@@ -32,7 +32,7 @@ Example:
 You can specify a regular expression that the user's input must match using this attribute.
 
 Example:
-```
+```html
 Email:<input type="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
 ```
 
@@ -40,7 +40,7 @@ Email:<input type="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.
 You can use these attributes to specify the maximum and minimum values that can be entered in a numeric input field.
 
 Example:
-```
+```html
 Age:<input type="number" name="age" id="age" min="18" max="99" required />
 ```
 
@@ -57,7 +57,7 @@ CSS pseudo-selectors make it possible to select elements and style them based on
 This pseudo-selector is used to select and style form elements that have the required attribute, such as input fields. The code given below will set the border color of all required input fields to red.
 
 Example:
-```
+```css
 input:required {
   border-color: red;
 }
@@ -68,7 +68,7 @@ This pseudo-selector is used to select and style form elements that are valid, s
 
 Example:
 
-```
+```css
 input:valid {
   border-color: green;
 }
@@ -78,7 +78,7 @@ input:valid {
 This pseudo-selector is used to select and style form elements that are invalid, such as input fields with invalid values. The code given below will set the border color of all invalid input fields to red.
 
 Example:
-```
+```css
 input:invalid {
   border-color: red;
 }
@@ -88,7 +88,7 @@ input:invalid {
 This pseudo-selector is used to select and style form elements that are disabled, such as input fields with disabled attributes. The code given below will set the opacity of all disabled input fields to 0.5.
 
 Example:
-```
+```css
 input:disabled {
   opacity: 0.5;
 }
@@ -98,7 +98,7 @@ input:disabled {
 This pseudo-selector is used to select and style form elements without required attribute. The code given below will set the background color of all optional input fields to light gray.
 
 Example:
-```
+```css
 input:optional {
   background-color: lightgray;
 }
@@ -106,7 +106,7 @@ input:optional {
 ## Contact Form Example 
 ### HTML
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -147,7 +147,7 @@ input:optional {
 
 ### CSS
 
-```
+```css
 form {
   display: flex;
   flex-direction: column;
