@@ -16,7 +16,7 @@ let x = 4; // Assigning value 4 to variable x
 You can add both single-line and multi-line comments using this method. Multi-line comments are also referred to as blocks of comments.
 
 Example:
-```javascript
+```
 /* This is an example of single line comment */
 
 /* This is an 
