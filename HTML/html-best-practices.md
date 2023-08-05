@@ -7,7 +7,7 @@ writing HTML to keep your HTML documents organized and consistent.
 The proper document structure should be used, even if your code would still work without it. But some browsers might not display the pages properly.
 
 Best Practice:
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -21,7 +21,7 @@ Best Practice:
 ## 2. Correct DOCTYPE
 When writing HTML, the doctype is the first thing you have to write. This will let the browser know what standards you're using to render markup correctly. The doctype tag precedes the `<html>` tag at the top of the page.
   
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -35,20 +35,20 @@ When writing HTML, the doctype is the first thing you have to write. This will l
   ## 3. Page language
 Screen readers will be able to select the appropriate language to announce if you specify the language of your website. Additionally, it helps browsers decide whether or not to translate your website automatically.
   
-  ```
+  ```html
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Page title</title>
-    </head>
-    <body>
-        <!-- page content -->
-    </body>
+  <head>
+  <title>Page title</title>
+  </head>
+  <body>
+  <!-- page content -->
+  </body>
 </html>
 ```
   ## 4. Always close or self-close the tags
    To avoid validation errors, always remember that every tag you write needs a closing tag.
-  ```
+  ```html
   <h1>Heading 1</h1>
   <p>Paragraph Text</p>
   <img src="example.jpg" alt="Example Image" />
@@ -56,22 +56,22 @@ Screen readers will be able to select the appropriate language to announce if yo
   ## 5. Don't use inline styles
 It might seem easier to style with the inline code rather than creating an external style file. Inline styles are not a suggested coding technique, though, as they make websites more challenging to manage and update.
 
-```
+```html
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Page title</title>
-        <link rel="stylesheet" href="styles.css">
+   <head>
+     <title>Page title</title>
+     <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <!-- page content -->
+     <!-- page content -->
     </body>
 </html>
   ```
 ## 6. Always Specify alt, width, and height for Images
 Since an alt attribute is not required for images, it is easy to ignore it. But, it's important to have a meaningful alt attribute for accessibility and validation reasons. Screen readers rely on the alt element for context, therefore it ought to explain what the image contains..
 
-```
+```html
 <img src="image.jpg" alt="a descriptive text">
   ```
 ## 7. Validate frequently
@@ -79,21 +79,21 @@ Validate your code often while you work rather than waiting until your HTML docu
 
 ## 8. Place external style sheets within the <head> tag
 The <head> tag is the best place for external style sheets even though they can be included anywhere in an HTML document. It speeds up the loading of the page.  
-```
+```html
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Page title</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <!-- page content -->
-    </body>
+ <head>
+   <title>Page title</title>
+   <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+ <!-- page content -->
+ </body>
 </html>
   ```
   ## 9. Avoid Excessive Comments
   Keep your comments to a minimum. Do not randomly write comments; only write them when they are necessary.
-  ```
+  ```html
   <!DOCTYPE html>
 <html>
   <head>
@@ -108,7 +108,7 @@ The <head> tag is the best place for external style sheets even though they can 
 ```
   ## 10. Use Fieldset and Labels in Web Forms
   When building web forms, it's important to use the HTML `<fieldset>` and `<label>` elements for better structure, organization, and accessibility.
-  ```
+  ```html
   <form>
   <fieldset>
     <legend>Personal Details</legend>
@@ -124,7 +124,7 @@ The <head> tag is the best place for external style sheets even though they can 
   ## 11. Use lowercase markup
   Although HTML permits uppercase markup as well, using lowercase markup for tags and attributes is recommended for consistency, compatibility, and accessibility reasons.
     
-  ```
+  ```html
   <h1>Heading 1</h1>
   <p>Paragraph Text</p>
   <img src="example.jpg" alt="Example Image">
@@ -137,8 +137,8 @@ The <head> tag is the best place for external style sheets even though they can 
   ## 13. Use meaningful tags
   Meaningful HTML tags properly identify the data they contain, making the code easy to understand and read for both humans and search engines.
     
-  ```
-  <header>
+  ```html
+<header>
   <h1>Page Title</h1>
 </header>
 <nav>
@@ -170,12 +170,12 @@ The <head> tag is the best place for external style sheets even though they can 
   ## 15. Always use responsive meta tags
   Always have a responsive website. Now that users may request a desktop or mobile experience via their browser, the least you can do is make your site flexible, but responsiveness is a requirement.
     
-```
+```html
     <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
   ## 16. Lazy load Images 
   Lazy loading images make them load faster, as only the images within the viewport are initially loaded.
- ```
+ ```html
     <img src="image.jpg" loading="lazy">
  ```
     
@@ -187,16 +187,17 @@ The <head> tag is the best place for external style sheets even though they can 
    ## 18. Add captions to images
   Use `<figcaption>` along with `<figure>` element to add captions to your images.   
     
-```<figure>
-     <img src="image.jpg" alt="A beautiful landscape">
-      <figcaption>A beautiful landscape</figcaption>
-    </figure>
+```html
+<figure>
+  <img src="image.jpg" alt="A beautiful landscape">
+  <figcaption>A beautiful landscape</figcaption>
+</figure>
 ```
     
    ## 19. Images Captions
    Use `<figcaption>` along with `<figure>` element to add captions to images. As, this is important for accessibility and search engine optimization.
     
-```
+```html
     <figure>
      <img src="example-image.jpg" alt="Example image">
      <figcaption>This is an example image</figcaption>
@@ -205,10 +206,8 @@ The <head> tag is the best place for external style sheets even though they can 
    ## 20. Avoid using `<b>` and `<i>`
    To add emphasis to text in HTML, it is discouraged to use the `<b>` and `<i>` tags as they lack semantic meaning. Instead, the    recommended practice is to utilize the font-weight CSS property, or employ the `<strong>` and `<em>` tags which have a semantic significance.
     
-```
+```html
     <p>Did you <em>really</em> think that was a good idea? You <strong>shouldn't</strong> have done that.</p>
 ```
 
 ⭐**Check out the [Isobar Front-end Code Standards](https://isobar-us.github.io/code-standards/) and the [HTML Best Practises](https://github.com/hail2u/html-best-practices) if you want to learn more.**
-  
-   
