@@ -14,7 +14,7 @@ Open your preferred code editor, such as Visual Studio Code. Make a file with th
 2. Insert a `<script>` tag within the `<body>` tag.
 3. In the `<script>` tag, write your JavaScript code using the `console.log` to observe the result.
 Example:
-```
+```html
 <body>
 <script>
   console.log("Hello, World!");
@@ -27,7 +27,7 @@ Example:
 1. First of all, create a JavaScript file(script.js) and open it.
 2. Write your JavaScript code directly in the file using `console.log` for output.
 Example:
-```
+```javascript
   console.log("Hello, World!");
 ```
 3. Then save the JavaScript file.
@@ -35,7 +35,7 @@ Example:
 5. Add a `<script>`` tag with the `src` attribute inside the `<body>` tag that points to the JavaScript file.
 
 Example:
-```
+```html
 <body>
   <script src="script.js"></script>
 </body>
