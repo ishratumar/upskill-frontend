@@ -28,7 +28,7 @@ There are 6 types of a primitive type:
 Numbers are any numerical values, including whole, fractional, positive, and negative numbers.
 
 Example:
-```
+```javascript
 let score = 300; // Output: integer value
 
 let marks = 70.5 // Output: decimal number
@@ -38,7 +38,7 @@ let marks = 70.5 // Output: decimal number
 Any group of characters that are enclosed in quotation marks is referred to as strings.
 
 Example:
-```
+```javascript
 let name= “Ishrat”; // Output: string
 
 let color = "Yellow"; // Output: string
@@ -48,7 +48,7 @@ let color = "Yellow"; // Output: string
 A boolean value can only be either true or false. The digits 0 or 1 are also acceptable. Checking conditions or comparing two variables are its main applications as a logical type.
 
 Example:
-```
+```javascript
 let a = false;
 
 var isAlive = true;
@@ -62,7 +62,7 @@ x == y; // return false
 Although they are declared, undefined variables in data types are variables without a definition, which means they have no value.
 
 Example:
-```
+```javascript
 let a;
 console.log(a); // Output: undefined
 
@@ -74,7 +74,7 @@ console.log(a); // Output: 13
 Null itself denotes that there is no value.
 
 Example:
-```
+```javascript
 let a = null; // Output: null
 ```
 
@@ -85,7 +85,7 @@ In JavaScript, symbols are a primitive data type that represents a unique, non-s
 Symbols are often used as keys in objects because they are guaranteed to be unique
 
 Here is how you might use symbols in JavaScript:
-```
+```javascript
 // Declare a symbol called `sym`
 const sym = Symbol();
 
@@ -117,13 +117,13 @@ Example illustration:
 Both defining a variable as an object literal and stating that it is equal to newObject() operate in essentially the same ways. But typing out an object literal is faster and simpler.
 
 Let’s create an object literal.
-```
+```javascript
 var obj = { x: 15, y: 26 };
 When we refer to obj, we are actually referring to the memory address that has the value{ x: 15, y: 26 } rather than the actual data itself.
 ```
 
 See the example below to understand how we can change or modify the object:
-```
+```javascript
 obj[x] = 17;
 console.log(obj) // Output will be {x: 17, y: 26}
 The typeof operator
@@ -131,7 +131,7 @@ In JavaScript, the typeof operator is unary operator that you can use to find th
 ```
 
 Example:
-```
+```javascript
 const num = 42;
 console.log(typeof num); // Output: 'number'
 
