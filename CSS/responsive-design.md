@@ -19,7 +19,7 @@ How the webpage displays without a Viewport Meta Tag:
 ![without-meta-tag](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/84c66375-7dd4-436f-981d-d4bb1ae71cd8)
 
 **Example:**
-```
+```html
 <head>
 <meta name="viewport" content="width=device-width", initial-scale=1.0" >
 </head>
@@ -37,7 +37,7 @@ Media queries are essential for responsive web design. You can apply different s
 Here are some examples that you can use in your projects:
 
 1. Write a media query to apply styles when the viewport width is 340px or less.
-```
+```css
 @media (max-width: 340px) {
 .item {
     font-size: 20px;
@@ -51,7 +51,7 @@ In the media query above, the styles will be applied when the viewport width is 
 ![media-query-responsive-design](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/4ee27220-3452-4ee3-9223-891ed483d170)
 
 2. Write a media query to apply styles when the device is in landscape mode.
-```
+```css
 @media (orientation: landscape) {
 /* Styles */
 }
@@ -59,21 +59,21 @@ In the media query above, the styles will be applied when the viewport width is 
 *Note that you can also style 'portrait' mode using a media query. Change "landscape" to "portrait" and add styles.*
 
 3. Write a media query to apply styles when the aspect ratio is 1:1 or larger.
-```
+```css
 @media (min-aspect-ratio: 1 / 1) {
 /* Styles */
 }
 ```
 
 4. Write a media query to apply styles when the aspect ratio is 16:9 or larger.
-```
+```css
 @media (min-aspect-ratio: 16 / 9) {
 /* Styles */
 }
 ```
 
 5. Write a media query to apply styles when the viewport width is between 200px and 300px.
-```
+```css
 @media (min-width: 200px) and (max-width: 300px) {
 /* Styles */
 }
@@ -100,7 +100,7 @@ space.
 Here are some examples that you can use:
 1. Use `auto-fill` to create columns that automatically fill the available space.
 
-```
+```css
 .grid-container {
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -110,7 +110,7 @@ grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 ![responsive-design (1)](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/5bf302a6-d822-4699-ad2e-cec50d2d39b9)
 
 2. Use `auto-fit` to create columns that automatically adjust their width.
-```
+```css
 .grid-container {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -120,7 +120,7 @@ grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 ![autofit](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/7dbd5707-b47a-461f-b2fd-d437beca37b1)
 
 3. Use `minmax` to create columns with a minimum width of 300px.
-```
+```css
 .grid-container {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
@@ -128,7 +128,7 @@ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 ```
 
 4. Use `grid-auto-rows` property to sets the height of automatically generated rows to 50px.
-```
+```css
 .grid-container {
 display: grid;
 grid-auto-rows: 50px;
@@ -136,7 +136,7 @@ grid-auto-rows: 50px;
 ```
 
 In addition, there is another sizing function called `fit-content()`. The `fit-content()` function in CSS Grid makes that grid tracks or items never go smaller than the *minimum (min-content)* size or bigger than the *maximum(max-content)* size  based on the content. You can make your designs more responsive and flexible by using `fit-content()` to create dynamic, flexible grid layouts.
-```
+```css
 .grid-container {
   display: grid;
   grid-template-columns: fit-content(200px) 1fr;
@@ -149,7 +149,7 @@ With viewport units, you can specify sizes in relation to the viewport's dimensi
 **Examples:**
 
 ### Responsive Typography
-```
+```css
 .heading {
   font-size: 10vw; /* Responsive font size */
   margin-bottom: 2vh;
@@ -162,7 +162,7 @@ With viewport units, you can specify sizes in relation to the viewport's dimensi
 **Demo:**
 ![responsive-design](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/52ce5dc8-56f2-4e00-b6fc-4da100990cfa)
 
-```
+```css
 .hero {
   height: 100vh; 
 }
@@ -172,28 +172,28 @@ With viewport units, you can specify sizes in relation to the viewport's dimensi
 ```
 In this example, the `vw` command sets the width of the image to 50% of the viewport width and the height of the hero section to 100% of the viewport height.
 
-```
+```css
 div {
 height: 50vh;
 }
 ```
 The `vh` specifies the height of the `div` in this example to be 50% of the viewport height.
 
-```
+```css
 div {
 height: 50svh; 
 }
 ```
 The `svh` command, in this case, adjusts the height of the `div` element to 50% of the viewport's shorter dimension (height or width).
 
-```
+```css
 div {
 height: 50lvh; 
 }
 ```
 In this case, the `lvh` sets the viewport's height to 50% of its longer dimension.
 
-```
+```css
 div {
 height: 50dvh; 
 }
@@ -208,7 +208,7 @@ Check browser support [here](https://caniuse.com/viewport-units).
 A quick and effective way to use Flexbox to implement responsive design is by using the `flex-wrap` property. Flex items will, by default, try to fit in a single line within the flex container. The `flex-wrap` property is set to `nowrap` by default. However, with the `flex-wrap` property set to `wrap`, the items will wrap to a new line when the container's width becomes too small to fit them all on a single line.
 
 **Example:**
-```
+```css
 .container {
   display: flex;
   flex-wrap: nowrap;
@@ -222,7 +222,7 @@ A quick and effective way to use Flexbox to implement responsive design is by us
 ![nowrap flexbox](https://github.com/ishratUmar18/upskill-frontend/assets/47534248/a45139ed-085b-4f32-9890-18564e2a37e9)
 
 
-```
+```css
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -242,7 +242,7 @@ In cases like the one above, where there is insufficient width, the flex contain
 In CSS, you can specify a value that falls within a given range by using the `clamp()` function.
 
 **Example:**
-```
+```css
 .text {
   font-size: clamp(14px, 3%, 24px);
 }
@@ -261,7 +261,7 @@ The browser will automatically select the preferred font size to make sure that 
 Using the `min()` function for *widths* and the `max()` function for *padding* and *margin*, you can create responsive designs with controlled *minimum* and *maximum* dimensions for elements that guarantee a constant and aesthetically pleasing layout across different screen sizes.
 
 **The min() function example:**
-```
+```css
 .container {
   width: min(300px, 50%);
  }
@@ -269,7 +269,7 @@ Using the `min()` function for *widths* and the `max()` function for *padding* a
 The container in this example will have a *minimum* width of *300* pixels or *50%* of the width of its parent container, whichever is greater.
 
 **The max() function example:**
-```
+```css
 .container {
    padding: max(20px, 5%);
    margin: max(10px, 2%);
