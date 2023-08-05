@@ -45,7 +45,7 @@ The floating element won't affect elements that come before it.
 When an image floats to the right, the surrounding text moves to the left, and when it floats to the left, the surrounding text moves to the right.
 
 Now let's apply float to an example. See the code below:
-```
+```css
 .align-left {
   float: left;
   margin-right: 20px;
