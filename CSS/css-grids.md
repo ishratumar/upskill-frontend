@@ -33,7 +33,7 @@ The grid container is the parent element in a grid layout with one or more child
 
 **Example:**
 
-```
+```html
 <div class="grid-container">
   <div class="grid-item">Item 1</div>
   <div class="grid-item">Item 2</div>
@@ -44,7 +44,7 @@ In the above example, the div with class `grid-container` is the parent element,
 
 ## Grid item
 A grid item is an element that is an immediate descendant of the grid container.
-```
+```html
 <div class="grid-container">
   <div class="grid-item">Item 1</div>
   <div class="grid-item">Item 2</div>
@@ -85,7 +85,7 @@ In a grid layout, the gap is used to indicate the size of the gutter or space be
 - `gap` - It's a shorthand. You can use it to set the `column-gap` and `row-gap` in a single line.
 
 **Example:**
-```
+```css
 .grid-container {
   display: grid;
   gap: 20px;
@@ -125,7 +125,7 @@ When the `display` property of an HTML element is set to `grid` or `inline-grid`
 The `grid` creates a *block-level* container that enables flexible and grid-like layouts by placing items in both columns and rows.
 
 **Example:**
-```
+```css
 .grid-container {
   display: grid;
 }
@@ -137,7 +137,7 @@ The `inline-grid` container, on the other hand, creates an *inline-level* contai
 making it suitable for inline layouts.
 
 **Example:**
-```
+```css
 .grid-container {
   display: inline-grid;
 }
@@ -188,7 +188,7 @@ The height of each row using `repeat()` function 👆.
 
 
 Here's an example code to create a grid with 3 columns and 3 rows using different sizing units.
-```
+```css
 .grid-container {
   display: grid;
   grid-template-columns: 7em 200px 20%;
@@ -335,7 +335,7 @@ The `grid-column` property determines which column(s) an item should appear on. 
 The `grid-column` is shorthand for `grid-column-start` and `grid-column-end` properties. 
 
 **Example:**
-```
+```css
 grid-column-start : 2;
 grid-column-end : 4;
 
@@ -346,7 +346,7 @@ grid-column : 2 / 4;
 The `grid-row` is shorthand for `grid-row-start` and `grid-row-end` properties.
 
 Example:
-```
+```css
 grid-row-start : 2;
 grid-row-end : 4;
 
@@ -359,7 +359,7 @@ grid-row : 2 / 4;
 Here's an example of a grid container with six items(divs):
 
 *HTML*
-```
+```html
 <div class="grid-container">
   <div class="grid-item1">Item 1</div>
   <div class="grid-item2">Item 2</div>
@@ -374,7 +374,7 @@ Here's an example of a grid container with six items(divs):
 
 **Syntax:** grid-column: start-line / end-line;
 
-```
+```css
 .grid-item1 {
   grid-column: 1 / 3;
 }
@@ -418,7 +418,7 @@ Here's an example of a grid container with six items(divs):
 
 *HTML*
 
-```
+```html
 <div class="grid-container">
   <div class="grid-item1">Item 1</div>
   <div class="grid-item2">Item 2</div>
@@ -433,7 +433,7 @@ Here's an example of a grid container with six items(divs):
 
 **Syntax :** grid-row: start-line / end-line;
 
-```
+```css
 .grid-item1 {
   grid-row: 1 / 3;
 }
@@ -476,7 +476,7 @@ You can also do this using the `span` keyword, which is the same thing but easie
 So, what `span` does, specify the number of columns/rows each item should span/expand.
 
 Here is an example of how you can use span in `items.grid-item1` and `.grid-item2` mentioned above:
-```
+```css
 .grid-item1 {
   grid-row: 1 / span 2;
   grid-column: 1 / span 2;
@@ -503,7 +503,7 @@ the ending line of row 2(3), and the ending line of column 2(3). You can also us
 **Syntax:** grid-area: row-start / column-start / row-end / column-end;
 *CSS*
 
-```
+```css
 .grid-item:nth-child(1) {
   grid-area: 1 / 1 / 3 / 3;
 }
@@ -515,7 +515,7 @@ Here's the illustration:
 
 To define these values, you may also use the `span` keyword. Here is an example of how to use `span` to create the same layout:
 
-```
+```css
 .grid-item:nth-child(1) {
   grid-area: 1 / 1 / span 2 / span 2;
   }
@@ -524,7 +524,7 @@ The `grid-area` property can also be used to give names to grid items. It is mor
 first you must set up `grid-template-areas`. Once finished, you must include the names from the parent class inside the children(items) classes.
 
 To begin with, define the `grid-template-areas` inside of your grid(parent) container like this:
-```
+```css
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -539,7 +539,7 @@ To begin with, define the `grid-template-areas` inside of your grid(parent) cont
 ```
 Now, use the grid-area to specify the names used in the grid container inside the item classes as follows:
 
-```
+```css
 .header {
   grid-area: header;
 }
@@ -582,7 +582,7 @@ Notice that it has the exact same layout as the desktop version. However, it doe
 mobile mode, we need these items to stack on top of one another. To do this, we may use media queries.
 
 Here's how to use media queries to accomplish that:
-```
+```css
 .grid-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -626,7 +626,7 @@ track sizes. Using this method, you can give grid objects a *minimum* width and 
 extra space.
 
 *For example:*
-```
+```css
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -637,7 +637,7 @@ hand, the `auto-fill` keyword ensures that the grid is always filled by adding e
 space. Both `auto-fill` and `auto-fit` are used in conjunction with the `repeat()` function in CSS Grid.
 
 In addition, there is another sizing function called `fit-content()`. The `fit-content()` function in CSS Grid makes that grid tracks or items never go smaller than the *minimum (min-content)* size or bigger than the *maximum(max-content)* size  based on the content. You can make your designs more responsive and flexible by using `fit-content()` to create dynamic, flexible grid layouts.
-```
+```css
 .grid-container {
   display: grid;
   grid-template-columns: fit-content(200px) 1fr;
@@ -649,7 +649,7 @@ is especially helpful when designing alternate layouts for various screen sizes.
 provides a powerful toolkit for precise designs, you can easily achieve precise designs that meet your needs.
 
 *For example:*
-```
+```css
 .grid-item1 { grid-area: 1 / 2 / 1 / 3; }
 .grid-item2 { grid-area: 1 / 4 / 1 / 3; }
 .grid-item3 { grid-area: 1 / 1 / 2 / 2; }
