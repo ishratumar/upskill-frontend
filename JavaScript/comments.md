@@ -7,7 +7,7 @@ There are two types of comments in JavaScript:
 Single line comments start or end with double forward slashes (//). Typically, they serve as short notes or annotations.
 
 Example:
-```
+```javascript
 // This is an example of single line comment
 let x = 4; // Assigning value 4 to variable x
 ```
@@ -16,7 +16,7 @@ let x = 4; // Assigning value 4 to variable x
 You can add both single-line and multi-line comments using this method. Multi-line comments are also referred to as blocks of comments.
 
 Example:
-```
+```javascript
 /* This is an example of single line comment */
 
 /* This is an 
