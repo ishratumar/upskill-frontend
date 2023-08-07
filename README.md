@@ -32,11 +32,12 @@ JavaScript is a robust programming language that is commonly used for web develo
 
 The foundations of JavaScript are as follows:
 
-- [Hello World](JavaScript/helloWorld.md)
-- [Popup Boxes](JavaScript/popupBoxes.md)
-- [Comments](JavaScript/comments.md)
-- [Variables](JavaScript/variables.md)
-- [Data Types](JavaScript/dataTypes.md)
+- [Hello World in JavaScript](JavaScript/helloWorld.md)
+- [JavaScript Popup Boxes](JavaScript/popupBoxes.md)
+- [JavaScript Comments](JavaScript/comments.md)
+- [JavaScript Variables](JavaScript/variables.md)
+- [JavaScript Data Types](JavaScript/dataTypes.md)
+- [JavaScript Operators](JavaScript/Operators.md)
 
 ## Version Control Systems
 
