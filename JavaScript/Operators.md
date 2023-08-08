@@ -15,7 +15,7 @@ There are different types of JavaScript operators, as follows:
 - String Operators
 
 JavaScript Operators Cheatsheet:
-![JavasriptOperators](javaScript-operators-cheatsheet.png)
+![JavasriptOperators](javascript-operators-cheatsheet.png)
 ## Arithmetic Operators
 Arithmetic Operators are used to perform arithmetic operations on the numbers.
 
