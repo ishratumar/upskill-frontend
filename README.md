@@ -38,6 +38,7 @@ The foundations of JavaScript are as follows:
 - [JavaScript Variables](JavaScript/variables.md)
 - [JavaScript Data Types](JavaScript/dataTypes.md)
 - [JavaScript Operators](JavaScript/Operators.md)
+- [JavaScript Conditional Statements](JavaScript/conditional-statements.md)
 
 ## Version Control Systems
 
