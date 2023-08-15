@@ -40,6 +40,7 @@ The foundations of JavaScript are as follows:
 - [JavaScript Operators](JavaScript/Operators.md)
 - [JavaScript Conditional Statements](JavaScript/conditional-statements.md)
 - [JavaScript Loops](JavaScript/loops.md)
+- [JavaScript Arrays](JavaScript/arrays.md)
 
 ## Version Control Systems
 
