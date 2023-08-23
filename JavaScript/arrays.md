@@ -21,7 +21,7 @@ See the illustration below:
 let arr = [10, 20, 30];
 console.log(arr[0]); // Output: 10
 ```
-You can access the full array by referring to the array name:
+You can access the whole array by referring to the array name:
 **Example:**
 ```javascript
 let arr = [10, 20, 30];
