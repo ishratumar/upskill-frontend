@@ -74,18 +74,18 @@ This concept prevents unintended interference and promotes encapsulation.
 
 **Example:**
 ```javascript
-function calculateTotalPricen (price) {
+function calculateTotalPrice(price) {
   const taxRate = 0.08;
   const totalPrice = price + price * taxRate;
   return totalPrice;
 }
 ```
 
-`let`` and `const` variables, introduced in ES6, have a block scope. Which means that you can only access them within the given block. This stops scope leaking and enables more exact handling of data. 
+`let`` and `const` variables, introduced in ES6, have a block scope. Which means that you can only access them within the given block. This stops scope leakage and enables more exact handling of data. 
 
 ## Closures
 In JavaScript, closures act as a sort of lexical scoping by preserving variables from a function's external scope in its inner scope. 
-In functions closures allow to create `private` variables. 
+In functions, closures allow the creation of `private` variables. 
 
 **Example:**
 ```javascript
@@ -97,10 +97,14 @@ function outer() {
   return inner;
 }
 const innerFunction = outer();
-innerFunction(); // Output: Hello from outer!
+innerFunction(); // Output: Hello from outside!
 ```
 ## Key takeaways
 - Functions are great for efficiency because you just need to define them once to use them as many times as you require. 
 - You don't have to keep writing the same or substantially similar code. 
 - You can use JavaScript functions to give it different inputs or arguments to get different results depending on the data you are dealing with.
 - JavaScript functions make it easier and faster to build programs.
+  
+
+**⭐ That's pretty much it for today. I really hope you find it helpful! If you have any questions DM me on Twitter/X at
+@ishrratumar.**
