@@ -12,7 +12,7 @@ A function can be used by referring to it with `parentheses ()` immediately afte
 Here's an example to elaborate on all this:
 ```javascript
 function greet(name) {
- console.log('Hello, ${name}!')
+  console.log(`Hello, ${name}!`)
 }
 greet("John"); // Output: Hello, John!
 ```
@@ -21,13 +21,13 @@ It is not necessary to have parameters for a function; the parentheses can simpl
 **Example:**
 ```javascript
 function greet() {
-  console.log(Hello World!)
+  console.log('Hello World!')
 }
 greet() // Output: Hello World!
 
 ```
 
-A function with parameters, however, requires the parameters' values to be entered in parentheses:
+A function with parameters, however, requires the parameters values to be entered in parentheses:
 
 **Example:**
 ```javascript
@@ -81,7 +81,7 @@ function calculateTotalPrice(price) {
 }
 ```
 
-`let`` and `const` variables, introduced in ES6, have a block scope. Which means that you can only access them within the given block. This stops scope leakage and enables more exact handling of data. 
+`let` and `const` variables, introduced in ES6, have a block scope. Which means that you can only access them within the given block. This stops scope leakage and enables more exact handling of data. 
 
 ## Closures
 In JavaScript, closures act as a sort of lexical scoping by preserving variables from a function's external scope in its inner scope. 
