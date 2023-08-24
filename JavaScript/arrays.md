@@ -7,7 +7,7 @@ The simplest way to create an Array is to use an Array literal.
 
 **Example:**
 ```javascript
-let arr = [10, 20, 30] ;
+let arr = [10, 20, 30];
 ```
 
 ## Accessing Array Elements
@@ -42,7 +42,7 @@ Using the .length property, you can find out the index of the last element of th
 **Example:**
 ```javascript
 let arr = [10, 20, 30];
-console.log(arr.length-1); // Output: 2
+console.log(arr.length - 1); // Output: 2
 ```
 Here's how to find out what the last element of the array is using the .length property.
 ```javascript
@@ -60,7 +60,6 @@ console.log(mixedArray[1]); // Output: hello (string)
 console.log(mixedArray[2]); // Output: true (boolean)
 console.log(mixedArray[3]); // Output: [1, 2, 3] (array)
 console.log(mixedArray[4]); // Output: { name: 'John', age: 30 } (object)
-
 ```
 
 ## List of JavaScript Array Methods
@@ -141,5 +140,3 @@ Although it isn't very common method to use, I just wanted to give you a sneak p
 I really hope you find this short tutorial helpful for understanding arrays in JavaScript! 
 
 #### If you like it, give it a ⭐!
-
-

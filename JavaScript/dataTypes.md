@@ -15,7 +15,7 @@ Types are the values that variables can have. JavaScript has 7 built-in types of
 ### Primitive type
 A primitive type refers to a single value; it can store only one value at a time.
 
-There are 6 types of a primitive type:
+There are 7 types of a primitive type:
 
 1. Number
 2. String
@@ -23,6 +23,7 @@ There are 6 types of a primitive type:
 4. Undefined
 5. Null
 6. Symbol
+7. BigInt
 
 #### Numbers
 Numbers are any numerical values, including whole, fractional, positive, and negative numbers.
@@ -101,6 +102,19 @@ const obj = {
 console.log(obj[sym]); // Output: 'This value is associated with the sym symbol'
 ```
 
+#### BigInt
+BigInt is a type that allows you to work with numbers, exceeding the limits of Number.MAX_SAFE_INTEGER and Number.MIN_SAFE_INTEGER. 
+
+Without this guy handling large numbers could lead to the following:
+```javascript
+// BigInt
+const x = BigInt(Number.MAX_SAFE_INTEGER); // 9007199254740991n
+console.log(x + 1n === x + 2n); // Output: false because 9007199254740992n and 9007199254740993n are unequal
+
+// Number
+console.log(Number.MAX_SAFE_INTEGER + 1 === Number.MAX_SAFE_INTEGER + 2); // Output: true because both are 9007199254740992
+```
+
 ## Non-Primitive
 The non-primitive type refers to multiple values.
 
@@ -119,16 +133,16 @@ Both defining a variable as an object literal and stating that it is equal to ne
 Let’s create an object literal.
 ```javascript
 var obj = { x: 15, y: 26 };
-When we refer to obj, we are actually referring to the memory address that has the value{ x: 15, y: 26 } rather than the actual data itself.
 ```
 
+When we refer to obj, we are actually referring to the memory address that has the value{ x: 15, y: 26 } rather than the actual data itself.
 See the example below to understand how we can change or modify the object:
 ```javascript
 obj[x] = 17;
 console.log(obj) // Output will be {x: 17, y: 26}
+```
 The typeof operator
 In JavaScript, the typeof operator is unary operator that you can use to find the type of a variable.
-```
 
 Example:
 ```javascript
@@ -155,6 +169,9 @@ console.log(typeof undef); // Output: 'undefined'
 
 const nul = null;
 console.log(typeof nul); // Output: 'object' (this is a quirk of JavaScript)
+
+const bigint = BigInt(2);
+console.log(typeof bigint); // Output: 'bigint'
 ```
 
 Know that the `typeof` operator has some restrictions but can be useful for determining the type of a value. For instance, when the typeof operator is used on both objects and null, it returns the object; similarly, when it is used on both functions and arrow functions, it returns the function.

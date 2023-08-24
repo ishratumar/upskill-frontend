@@ -95,7 +95,6 @@ console.log(typeof arr);  // "object"
 ```
 **Example 2: Function and undefined:**
 ```javascript
-// 
 function name() {
   console.log("Ishrat");
 }

@@ -16,9 +16,9 @@ Open your preferred code editor, such as Visual Studio Code. Make a file with th
 Example:
 ```html
 <body>
-<script>
-  console.log("Hello, World!");
-</script>
+  <script>
+    console.log("Hello, World!");
+  </script>
 </body>
 ```
 4. Save the file, then.
@@ -28,11 +28,11 @@ Example:
 2. Write your JavaScript code directly in the file using `console.log` for output.
 Example:
 ```javascript
-  console.log("Hello, World!");
+console.log("Hello, World!");
 ```
 3. Then save the JavaScript file.
 4. Create a new HTML file(index.html) and open it.
-5. Add a `<script>`` tag with the `src` attribute inside the `<body>` tag that points to the JavaScript file.
+5. Add a `<script>` tag with the `src` attribute inside the `<body>` tag that points to the JavaScript file.
 
 Example:
 ```html
