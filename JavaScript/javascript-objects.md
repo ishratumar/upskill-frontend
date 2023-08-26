@@ -130,7 +130,7 @@ console.log(blogPost.details.language); // Output: English
 console.log(blogPost.details.platform); // Output: Medium
 ```
 
-## Object Destructuring (ES6)
+## Object destructuring(ES6)
 JavaScript has a nice feature called object destructuring that lets you extract properties from objects and bind them to variables. 
 It is capable of extracting many properties in one statement, accessing properties from nested objects, and setting a default value in the absence of a property.
 **Syntax:**
