@@ -82,11 +82,11 @@ console.log(blogPost.details.language); // Output: English
 console.log(blogPost.details.platform); // Output: YouTube
 ```
 
-## Objects methods
+## Object methods
 In JavaScript, creating functions within objects is referred to as methods.
 
 **Example:**
-```
+```javascript
 let player = {
     name: "Joe",
     score: 200,
@@ -99,7 +99,8 @@ let player = {
 Here's how you can invoke this function:
 
 ```javascript
-player.greet(); // Output: Hey! // player is an object and greet is a function on that object, also called a method
+player.greet(); // Output: Hey!
+// player is an object and greet is a function on that object, also called a method
 ```
 
 ## Shorthand(ES6)
