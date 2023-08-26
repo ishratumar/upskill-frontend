@@ -32,7 +32,7 @@ A function with parameters, however, requires the parameters values to be entere
 **Example:**
 ```javascript
 function greet(name) {
- console.log('Hello, ${name}!')
+ console.log(`Hello, ${name}!`)
 }
 greet("John"); // Output: Hello, John!
 ```
