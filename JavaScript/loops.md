@@ -13,16 +13,16 @@ Types of loops in JvaScript:
 For loop, it works best when you know how many iterations will be required in advance.
 
 There are three parts of for-loop:
-1. initialization to declare or initialize a variable.
-2. condition to determine whether the loop will keep executing; if the condition is false, the loop will be terminated.
-3. increment and decrement refer to the change in the value of a variable.
+1. before => Code to execute before the first iteration, frecuently used to declare or initialize a variable.
+2. condition => used to determine whether the loop will keep executing; if the condition is false, the loop will be terminated.
+3. after => Code to execute after each iteration, frecuently used to increment and decrement refer to the change in the value of a variable.
 
 When a condition is true, the code inside the loop will execute.
 
 **Syntax:**
 ```javascript
-for (initialization; condition; increment/decrement) {
-// Code to be executed in each iteration
+for (before; condition; after) {
+  // Code to be executed in each iteration
 }
 ```
 
@@ -30,13 +30,13 @@ for (initialization; condition; increment/decrement) {
 Here's an example of for loop to print even numbers from 0 to 20
 ```javascript
 for (let i = 2; i <= 20; i += 2) {
-console.log(i);
+  console.log(i);
 }
 ```
 # while loop
-In  a `while loop``, you execute a block of code repeatedly as long as a certain condition is true.
+In  a `while loop`, you execute a block of code repeatedly as long as a certain condition is true.
 
-The `while loop`` works well when the number of iterations is unknown.
+The `while loop` works well when the number of iterations is unknown.
 
 It starts by checking whether the condition is true; if it is, the while loop's code block is then executed, and the process is repeated until the condition is true.
 
@@ -44,8 +44,8 @@ It starts by checking whether the condition is true; if it is, the while loop's 
 ```javascript
 let i = 0;
 while (i < 5) {
-// Code to be executed in each iteration
-i++;
+  // Code to be executed in each iteration
+  i++;
 }
 ```
 ## for-loop vs. while-loop
@@ -54,7 +54,7 @@ One key difference between `for-loop` and `while-loop` is that `while-loop` is u
 On the other hand, `for-loop` works best when you know how many iterations will be required in advance.
 
 # do while loop
-If you want to run the code block at least once before checking the condition, use `do-while`` loop.
+If you want to run the code block at least once before checking the condition, use `do-while` loop.
 
 After the first iteration, if the condition is true, the loop continues to iterate until the condition is false, at which point it terminates.
 
@@ -62,8 +62,8 @@ After the first iteration, if the condition is true, the loop continues to itera
 ```javascript
 let i = 0;
 do {
-// Code to be executed in each iteration
-i++;
+  // Code to be executed in each iteration
+  i++;
 } while (i < 5);
 ```
 # for...of loop
@@ -72,7 +72,7 @@ The `for...of` loop is used to repeatedly iterate over and perform some action o
 **Syntax:**
 ```javascript
 for (variable of iterable) {	
-// block of code to be executed
+  // block of code to be executed
 }
 ```
 **Example:**
@@ -84,7 +84,7 @@ If you were a chef, you might have a variety of ingredients for a special recipe
 const ingredients = ["flour", "eggs", "milk", "sugar"];
 console.log("Shopping List:");
 for (const ingredient of ingredients) {
-console.log(`- ${ingredient}`);
+  console.log(`- ${ingredient}`);
 }
 ```
 
@@ -93,8 +93,8 @@ The `for...in` loop is used to iterate through all of an object's enumerable pro
 
 **Syntax:**
 ```javascript
-for ( variable in object ){
-// block of code to be executed
+for (variable in object){
+  // block of code to be executed
 }
 ```
 **Example:**
@@ -107,8 +107,8 @@ const tasks = {
 "task3": "not started",
 };
 for (const taskName in tasks) {
-const status = tasks[taskName];
-console.log(`Task ${taskName} is ${status}.`);
+  const status = tasks[taskName];
+  console.log(`Task ${taskName} is ${status}.`);
 }
 ```
 **Key points:**

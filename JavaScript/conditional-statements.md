@@ -10,21 +10,21 @@ The following are different of conditional statements:
 - ternary operator
 
 ## if
-The `if`statement is used to write a block of code that will run only if a certain condition is true.
+The `if` statement is used to write a block of code that will run only if a certain condition is true.
 
 **Syntax:**
 ```javascript
 if (condition) {
-  //  block of code
+  // block of code
 }
 ```
 **Example**
 ```javascript
+let result;
 if (50 > 5) {
-    let result = "Yes, 50 is greater than 5!";
+  result = "Yes, 50 is greater than 5!";
 }
-// Output: "Yes, 50 is greater than 5!"
-
+console.log(result); // Output: "Yes, 50 is greater than 5!"
 ```
 
 ## else
@@ -33,33 +33,32 @@ The `else` statement is used to write a second block of code that will run if th
 **Syntax:**
 ```javascript
 if (condition) {
-    // execute if the condition is true
+  // execute if the condition is true
 } else {
-    // execute if the condition is false
+  // execute if the condition is false
 }
-
 ```
 **Example:**
 ```javascript
+let result;
 if (5 > 50) {
-   let result = "Yes, 5 is greater than 50!";
-} else 
-{
-   let result = "No, 5 is less than 50!";
-} 
-// Output: "No, 5 is less than 50!"
+  result = "Yes, 5 is greater than 50!";
+} else {
+  result = "No, 5 is less than 50!";
+}
+console.log(result); // Output: "No, 5 is less than 50!"
 ```
 ## else-if
-The `else-if`statement is used to test a different condition if the first condition is false.
+The `else-if` statement is used to test a different condition if the first condition is false.
 
 **Syntax:**
 ```javascript
 if (condition-01) {
-  //  execute if the condition-01 is true
-} else if (condition-02){
-//  execute if the condition-01 is false and condition-02 is true
+  // execute if the condition-01 is true
+} else if (condition-02) {
+  // execute if the condition-01 is false and condition-02 is true
 } else {
-//  execute if the condition-01 and condition-02 are false
+  // execute if the condition-01 and condition-02 are false
 }
 ```
 **Example:**
@@ -128,9 +127,9 @@ The `ternary operator` is shorthand for writing if-else statements.
 
 **Example:**
 ```javascript
-   const isGoingOut = true;
+const isGoingOut = true;
 
-   let answer = isGoingOut ? "Yes" : "No";
+let answer = isGoingOut ? "Yes" : "No";
 ```
 
 That's pretty much it for today. I really hope you find this helpful. Thank you for reading!

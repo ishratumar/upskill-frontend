@@ -49,12 +49,12 @@ Example:
    ```
 
 ## 7. Constants
-A value assigned to a variable with the keyword `const`` makes it a constant and prevents it from changing. They provide named references to read-only values.
+A value assigned to a variable with the keyword `const` makes it a constant and prevents it from changing. They provide named references to read-only values.
 
 Example:
    ```javascript
    const pi = 3.14;
-   pi = 3.14159; // This will result in an error
+   pi = 3.14159; // This will result in "TypeError: Assignment to constant variable."
    ```
 
 Variables are a fundamental concept in JavaScript, so understanding them is crucial. I really hope this brief introduction will give you a better understanding of Varables.
