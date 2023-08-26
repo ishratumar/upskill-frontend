@@ -42,6 +42,7 @@ The foundations of JavaScript are as follows:
 - [JavaScript Loops](JavaScript/loops.md)
 - [JavaScript Arrays](JavaScript/arrays.md)
 - [JavaScript Functions](JavaScript/functions.md)
+- [JavaScript Objects](JavaScript/javascript-objects.md)
 
 ## Version Control Systems
 
