@@ -82,8 +82,8 @@ console.log(blogPost.details.language); // Output: English
 console.log(blogPost.details.platform); // Output: YouTube
 ```
 
-## Methods on Objects
-In JavaScript, creating functions within objects is referred to as Methods.
+## Objects methods
+In JavaScript, creating functions within objects is referred to as methods.
 
 **Example:**
 ```
