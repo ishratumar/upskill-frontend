@@ -79,7 +79,7 @@ console.log(blogPost.details); // {language: English, platform: Medium}
 
 // Access properties of the nested object
 console.log(blogPost.details.language); // Output: English
-console.log(blogPost.details.platform); // Output: YouTube
+console.log(blogPost.details.platform); // Output: Medium
 ```
 
 ## Object methods
