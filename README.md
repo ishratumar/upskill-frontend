@@ -43,6 +43,7 @@ The foundations of JavaScript are as follows:
 - [JavaScript Arrays](JavaScript/arrays.md)
 - [JavaScript Functions](JavaScript/functions.md)
 - [JavaScript Objects](JavaScript/javascript-objects.md)
+- [JavaScript Template Literals](JavaScript/template-literals.md)
 
 ## Version Control Systems
 
