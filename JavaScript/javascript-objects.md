@@ -79,14 +79,14 @@ console.log(blogPost.details); // {language: English, platform: Medium}
 
 // Access properties of the nested object
 console.log(blogPost.details.language); // Output: English
-console.log(blogPost.details.platform); // Output: YouTube
+console.log(blogPost.details.platform); // Output: Medium
 ```
 
-## Methods on Objects
-In JavaScript, creating functions within objects is referred to as Methods.
+## Object methods
+In JavaScript, creating functions within objects is referred to as methods.
 
 **Example:**
-```
+```javascript
 let player = {
     name: "Joe",
     score: 200,
@@ -99,7 +99,8 @@ let player = {
 Here's how you can invoke this function:
 
 ```javascript
-player.greet(); // Output: Hey! // player is an object and greet is a function on that object, also called a method
+player.greet(); // Output: Hey!
+// player is an object and greet is a function on that object, also called a method
 ```
 
 ## Shorthand(ES6)
@@ -130,7 +131,7 @@ console.log(blogPost.details.language); // Output: English
 console.log(blogPost.details.platform); // Output: Medium
 ```
 
-## Object Destructuring (ES6)
+## Object destructuring(ES6)
 JavaScript has a nice feature called object destructuring that lets you extract properties from objects and bind them to variables. 
 It is capable of extracting many properties in one statement, accessing properties from nested objects, and setting a default value in the absence of a property.
 **Syntax:**
