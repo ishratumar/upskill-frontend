@@ -9,7 +9,8 @@ Triple equals (`===`) checks for both value and type equality, sparing you from 
 3 == "3" // true because JS converts strings to numbers
 ```
 
-## Tip 2: Utilize ternary operators for simple if-else conditions.
+## Tip 2: Ternary operators
+Utilize ternary operators for simple if-else conditions.
 
 It makes your code more concise and easier to read.
 
@@ -19,7 +20,8 @@ var beverage = (age >= 21) ? "Coffee" : "Juice";
 console.log(beverage); // Output: Juice
 ```
 
-## Tip 3: Write async behavior with Promises and async/await to avoid callback hell.
+## Tip 3: Promises and async/await
+Write async behavior with Promises and async/await to avoid callback hell.
 
 ```javascript
 async function fetchData() {
@@ -29,7 +31,8 @@ async function fetchData() {
 }
 ```
 
-## Tip 4: Take advantage of Array methods like `.map()`, `.filter()`, and `.reduce()` for efficient manipulation.
+## Tip 4: Array methods
+Take advantage of Array methods like `.map()`, `.filter()`, and `.reduce()` for efficient manipulation.
 
 ```javascript
 var numbers = [1, 2, 3, 4, 5];
@@ -37,7 +40,8 @@ var doubled = numbers.map(num => num * 2);
 console.log(doubled); // Output: [2, 4, 6, 8, 10]
 ```
 
-## Tip 5: Use `JSON.stringify()` and `JSON.parse()` for easy conversion between JSON and JS objects!
+## Tip 5: JSON.stringify() and JSON.parse()
+Use `JSON.stringify()` and `JSON.parse()` for easy conversion between JSON and JS objects!
 
 ```javascript
 var person = { name: "John", age: 30 };
@@ -45,7 +49,8 @@ var json = JSON.stringify(person);
 var obj = JSON.parse(json);
 ```
 
-## Tip 6: Shorten your code. Use the shorthand for if statements.
+## Tip 6: if statements shorthand
+Shorten your code. Use the shorthand for if statements.
 
 Take note of the code given below.
 
@@ -57,7 +62,8 @@ if (isReady) console.log('Ready');
 isReady && console.log('Ready');
 ```
 
-## Tip 7: Destructuring in JavaScript is a total game-changer!
+## Tip 7: Destructuring
+Destructuring in JavaScript is a total game-changer!
 
 It allows you to extract data from arrays or objects into distinct variables. Check out the example below:
 
