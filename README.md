@@ -44,6 +44,7 @@ The foundations of JavaScript are as follows:
 - [JavaScript Functions](JavaScript/functions.md)
 - [JavaScript Objects](JavaScript/javascript-objects.md)
 - [JavaScript Template Literals](JavaScript/template-literals.md)
+- [JavaScript Scope](JavaScript/scope.md)
 - [JavaScript Tips](JavaScript/javascript-tips-tricks.md)
 
 ## Version Control Systems
