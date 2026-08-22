@@ -46,6 +46,8 @@ The foundations of JavaScript are as follows:
 - [JavaScript Template Literals](JavaScript/template-literals.md)
 - [JavaScript Scope](JavaScript/scope.md)
 - [JavaScript Tips](JavaScript/javascript-tips-tricks.md)
+- [What Is the Document Object Model (DOM)?](JavaScript/What-Is-the-Document-Object-Model-(DOM)_.md)
+- [What is the purpose of 'this' keyword in JavaScript?](JavaScript/javascript-this-keyword.md)
 
 ## Version Control Systems
 
