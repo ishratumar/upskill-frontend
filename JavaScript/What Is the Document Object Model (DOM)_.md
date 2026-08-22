@@ -58,14 +58,8 @@ For example:
 
 The DOM can be visualized as:
 
-```text
-body
-├── h1
-│   └── "Hello"
-└── div
-    └── p
-        └── "Welcome!"
-```
+<img width="1254" height="1254" alt="document object model in javascript" src="https://github.com/user-attachments/assets/3c8cd22a-34dd-437b-8d54-3a8d783d63b2" />
+
 
 Here, `body` is the parent of `h1` and `div`.
 
@@ -349,4 +343,4 @@ The next time you click a button and something on a webpage changes instantly, r
 
 **The browser updated what you see.**
 
-That's the foundation of interactive web development.
+That's the foundation of interactive web development. For a demo, you can check this [Todo app example](https://codepen.io/editor/ishratumar/pen/019ff205-645f-795c-b418-bf71ee76b375).
