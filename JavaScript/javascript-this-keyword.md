@@ -8,6 +8,7 @@ The important part is:
 
 > `this` is determined by how a function is called, not where it is defined.
 
+<img width="1254" height="1254" alt="this keyword in JavaScript" src="https://github.com/user-attachments/assets/93aa1751-ba39-4014-8a6f-32f814711f0b" />
 
 
 Here are the common cases:
