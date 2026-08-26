@@ -42,7 +42,9 @@ Your JavaScript can then use that data to update the page.
 
 ## The Four Pieces of an API Request
 
-There are usually four important pieces to an API request.
+There are usually four important pieces to an API request:
+
+<img width="1024" height="577" alt="4 important pieces to an API request" src="https://github.com/user-attachments/assets/545b2086-1f9c-4455-8b73-e11a7e66d646" />
 
 **1. URL** — Where you're sending the request.
 
@@ -312,7 +314,7 @@ Something went wrong
 
 A good API integration handles three states: 
 
-**Loading → Success → Error**. 
+<img width="1536" height="1024" alt="Loading → Success → Error" src="https://github.com/user-attachments/assets/90097b64-fa6d-4f0a-b2c5-b66bf27ce836" />
 
 This pattern appears everywhere in frontend development.
 
@@ -353,6 +355,7 @@ Both can communicate with remote APIs. But for most modern JavaScript applicatio
 
 The bigger idea is more important than memorizing syntax. When your application works with an API, think about the complete flow:
 
+<img width="1024" height="1536" alt="api request flow" src="https://github.com/user-attachments/assets/aeaf8903-8eff-4ac2-937e-11327cb3b94a" />
 
 
 That's the basic request-response cycle behind countless web applications.
